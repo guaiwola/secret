@@ -20,10 +20,10 @@ export default {
     maxGroupsCount: 3,
 
     // qiniu config
-    qiniuAccessKey: options.qiniuAccessKey || env.QiniuAccessKey || 'OdEhVll-lLXcs3jveFgZhh1EWRZty1b_YQreapPU',
-    qiniuSecretKey: options.qiniuSecretKey || env.QiniuSecretKey || '-1Hm9ty0zC3lKlc4cbZVTnoiifwQYj7OhAV-ODnB',
-    qiniuBucket: options.qiniuBucket || env.QiniuBucket || 'liaotian',
-    qiniuUrlPrefix: options.qiniuUrlPrefix || env.QiniuUrlPrefix || 'https://cdn.guaiwola.com/',
+    qiniuAccessKey: options.qiniuAccessKey || env.QiniuAccessKey || 'TOKEN_32b75fd2-6890-41c0-8375-de401eb45b9d',
+    qiniuSecretKey: options.qiniuSecretKey || env.QiniuSecretKey || 'b3178848-c4a1-4f68-a74c-caf314d4af27',
+    qiniuBucket: options.qiniuBucket || env.QiniuBucket || 'nie',
+    qiniuUrlPrefix: options.qiniuUrlPrefix || env.QiniuUrlPrefix || 'https://nie.cn-bj.ufileos.com/',
 
     allowOrigin: options.allowOrigin || env.AllowOrigin,
 
